@@ -1,0 +1,31 @@
+{
+  "name": "fastarr",
+  "version": "0.0.1",
+  "description": "A tiny, fast Array utility with O(1) adds and removes, and maximum density.",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node --stage 0 ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edge/fastarr.git"
+  },
+  "keywords": [
+    "fast",
+    "array",
+    "constant"
+  ],
+  "author": "synchronous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edge/fastarr/issues"
+  },
+  "homepage": "https://github.com/edge/fastarr#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.23",
+    "deep-equal": "^1.0.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1"
+  },
+  "dependencies": {}
+}

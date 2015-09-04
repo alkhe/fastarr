@@ -12,8 +12,8 @@ export default () => {
 			buffer[freeIndex] = value;
 
 			return () => {
-				buffer.splice(freeIndex, 1);
-				indexBuffer.push(freeIndex);
+				buffer[freeIndex] = undefined;
+				indexBuffer.unshift(freeIndex);
 			}
 		},
 		buffer
